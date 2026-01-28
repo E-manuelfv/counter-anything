@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    # O alvo é 28/01/2026 às 08:00:00
-    target_date = "Jan 28, 2026 08:00:00"
+    target_date = "Jan 30, 2026 09:00:00"
     return render_template('index.html', target_date=target_date)
 
 if __name__ == '__main__':
