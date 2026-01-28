@@ -23,4 +23,4 @@ mantendo foco e organização no dia a dia.
 git clone https://github.com/E-manueIfv/counter-anything.git
 cd counter-anything
 pip install -r requirements.txt
-python app.py
+gunicorn wsgi:app
